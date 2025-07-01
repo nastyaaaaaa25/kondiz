@@ -24,7 +24,7 @@ function checkCredentials(login, password) {
   // В реальной ситуации проверка идет через сервер,
   // здесь это пример с жестко зафиксированными данными
   const validLogin = 'admin';
-  const validPassword = '1234';
+  const validPassword = '12345';
 
   return login === validLogin && password === validPassword;
   return isLoggedIn = true;
